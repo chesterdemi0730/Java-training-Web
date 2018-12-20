@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Arithmetic Demo</title>
+</head>
+<body>
+<form method="post" action="./Arithmetic">
+
+	<h1>這是一個簡單的數學 - 四則運算</h1>
+	<p>進行數學評估，插入兩個數字進行評估，然後選擇要執行的評估類型。</p>
+
+	<label for="numa">Enter Number A:</label>
+	<input type="text" id="numa" name="numa" /><br /><br />
+	
+	<label for="numb">Enter Number B:</label>
+	<input type="text" id="numb" name="numb" /><br /><br />
+	
+	<select id="matheval" name="matheval">
+		<option value="add">Add the number</option>
+		<option value="subtract">Subtract the number</option>
+		<option value="multiply">Multiply the number</option>
+		<option value="divide">Divide the number</option>
+	</select>
+	
+	<input type="submit" value="Submit Form" />
+	<input type="reset"  value="Reset Form" />
+
+</form>
+</body>
+</html>
